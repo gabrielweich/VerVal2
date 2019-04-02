@@ -1,0 +1,32 @@
+.container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: auto;
+  }
+
+  .leftContainer {
+    flex: 2;
+  }
+
+  .rightContainer {
+    flex: 1;
+  }
+
+  .button {
+    border-radius: 4px;
+    background-color: rgb(7, 77, 34);
+    border: transparent;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 5rem;
+}
+.alignButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

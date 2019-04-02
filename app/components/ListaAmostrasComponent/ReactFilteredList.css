@@ -1,0 +1,77 @@
+.mount-point {
+padding: 5% 10%;
+}
+
+.input {
+  margin: 1rem 0;
+  line-height: 2;
+  font-size: 1.2rem;
+  width: 100%;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.input:focus{
+  border-color: rgb(7, 77, 34);
+  border-width: .10em;
+  border-style: solid;
+  outline: none;
+}
+
+.ul {
+  padding: 0;
+  margin:0;
+
+  border-right: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 68vh;
+
+
+}
+
+.li {
+  list-style: none;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0;
+  line-height: 2;
+  padding: .5rem;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.li:hover{
+  background-color: #D3D3D3;
+}
+
+.fontAmostras {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-variant: inherit;
+}
+
+/* width */
+::-webkit-scrollbar {
+  min-width: .75rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: .4rem;
+  background-color: rgba(204, 204, 204, 0.336);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(189, 188, 188); 
+  border-radius: .4rem;  
+} 
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(146, 146, 146);
+}

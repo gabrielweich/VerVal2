@@ -1,0 +1,46 @@
+.showmodal{
+    border-radius: 4px;
+    background-color: rgb(7, 77, 34);
+    border: transparent;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+@media(min-width:701px){
+    .pequeno{
+      display: none;
+  
+    }
+    .showmodal:hover {
+      transition: all 0.3s ease 0s;
+      background-color: rgb(63, 117, 84);
+  
+    }
+  }
+  @media(max-width: 700px){
+    .grande{
+      display: none;
+  
+    }
+    .pequeno{
+      display: inline-block;
+      font-weight: bold;
+      border-radius: 2rem;
+      font-size: 1.5rem;
+      border-top: 4%;
+      min-height: 2rem;
+      min-width: 2rem;
+      padding: 0 .5rem;
+    }
+    .showmodal:hover {
+      transition: all 0.3s ease 0s;
+      background-color: rgb(63, 117, 84);
+    }
+  }
+
+.pdf {
+    margin-left: 16px;
+}

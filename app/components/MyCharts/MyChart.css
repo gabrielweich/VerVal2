@@ -1,0 +1,21 @@
+.opa3D {
+  height: 75%;
+  width: 100%;
+  margin: 0;
+}
+
+.opa2D {
+  height: 80%;
+  width: 100%;
+  margin: 0;
+}
+.backButton {
+  position: relative;
+}
+.backButton a {
+  color: #d63715;
+}
+
+.parent {
+  height: 100%;
+}

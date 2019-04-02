@@ -1,0 +1,99 @@
+.botaoAmostras {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.displayblock {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.modalmain {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transform: translateY(35%);
+}
+.displaynone {
+    display: none;
+  }
+
+.showmodal{
+  border-radius: 4px;
+  background-color: rgb(7, 77, 34);
+  border: transparent;
+  color: #FFFFFF;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+
+.closeModalButton{
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgb(7, 77, 34);
+  color: #ffffff;
+  border: transparent;
+  box-sizing: border-box;
+  margin-top: .3rem;
+  padding: .3rem .6rem;
+  font-size: 1rem;
+
+}
+
+
+.closeModalButton:hover{
+  transition: all 0.3s ease 0s;
+  background-color: rgb(63, 117, 84);
+}
+
+@media(min-width:701px){
+  .pequeno{
+    display: none;
+
+  }
+  .showmodal:hover {
+    transition: all 0.3s ease 0s;
+    background-color: rgb(63, 117, 84);
+
+  }
+}
+@media(max-width: 700px){
+  .grande{
+    display: none;
+
+  }
+  .pequeno{
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    border-top: 4%;
+    min-height: 2rem;
+    min-width: 2rem;
+    padding: 0 .5rem;
+  }
+  .showmodal:hover {
+    transition: all 0.3s ease 0s;
+    background-color: rgb(63, 117, 84);
+  }
+}
+
+.pdf {
+  margin-left: 16px;
+}
+
+.back{
+  background-color: rgba(255,255,255,0.8);
+  height: 100%;
+  color: transparent;
+  text-indent: 99999999999px;
+}

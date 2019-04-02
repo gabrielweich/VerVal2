@@ -1,0 +1,41 @@
+.input {
+  font-size:20pt;
+  margin-top: 1rem;
+  border:none;
+  outline:none;
+  display:block;
+  background:transparent;
+  z-index:2;
+  border-bottom:1px solid #ccc;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyeButtonHidden, .eyeButtonVisible {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.eyeButtonHidden {
+  background-image: url("../../Assets/hide.png");
+}
+.eyeButtonVisible {
+  background-image: url("../../Assets/show.png");
+}
+
+.eyeButtonHidden:hover, .eyeButtonVisible:hover{
+  filter: opacity(70%);
+  transition: filter .25s;
+}
+.eyeButtonHidden:active, .eyeButtonVisible:active{
+  filter: opacity(0);
+  transition: filter .05s ease-in;
+}

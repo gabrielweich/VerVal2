@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  padding-top: 12%;  
+  text-align: center;
+  background-color: lavender;
+  height: 100%;
+}
+.container h2 {
+  font-size: 5rem;
+}
+
+
+.container a {
+  font-size: 1.4rem;
+  color: #d63715;
+}
+

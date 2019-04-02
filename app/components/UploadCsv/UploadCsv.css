@@ -1,0 +1,24 @@
+.csv {
+    padding: 3rem;
+    text-align: center;
+    max-height:11rem;
+    max-width: 18rem;
+    border: 2px solid gray;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+    font-weight: bold;
+    margin: auto;
+    font-size: 1.5rem;
+    cursor: copy;
+}
+
+.hidden{
+  color: transparent;
+}
+.hidden::selection{
+  color: transparent;
+}
+
+.visible{
+   color: black;
+}
