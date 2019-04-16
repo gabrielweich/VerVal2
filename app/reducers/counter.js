@@ -4,6 +4,7 @@ import type { Action } from './types';
 
 export default function counter(state: number = 0, action: Action) {
   switch (action.type) {
+    //Teste
     case INCREMENT_COUNTER:
       return state + 1;
     case DECREMENT_COUNTER:
